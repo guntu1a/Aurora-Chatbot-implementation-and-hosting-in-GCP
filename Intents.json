@@ -1,0 +1,102 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+
+        {
+          "tag":"bots",
+          "patterns": ["what are chatbots?","what kind of bots availabale?","Types of chatbots"],
+          "responses": [ "A chatbot is an artificial intelligence (AI) software that can simulate a conversation with user. Few types of chatbots are Menu/button-based chatbots, Machine Learning chatbots,  Linguistic Based chatbots, etc.."]
+        },
+
+		    {
+		      "tag": "chatbot",
+		      "patterns": ["what are you?","what can you do", "how can you be usefull?","what chatbot are you"],
+		      "responses": ["I am an Aurora Chatbot", "I am a chatbot who is trained to give basic information about Auroras","Shoot me some questions about aurora, I will try to answer them"]
+		    },
+
+        {
+          "tag":"fun",
+          "patterns":["Can I make fun of you?","You are a joke","can you tell me some jokes?"],
+          "responses":["I can give information about auroras","I cannot tell any jokes","you can make fun of you","Interesting!"]
+        },
+
+        {
+          "tag":"Interesting facts",
+          "patterns": ["can you tell me some fun facts of chatbots?", "do you know about chatbots?","information about chatbots"],
+          "responses": ["There Are More than 30,000 Facebook Chatbots","The robotic and artificial nature of responses clued in 60 percent consumers that they were interacting with a chatbot, according to DigitasLBi.","The first chatbot, ELIZA, was invented in 1966, 17 years before the internet.","The first chatbot, ELIZA, was invented in 1966, 17 years before the internet.","63% of people are willing to trust chatbots with sensitive information."]
+        },
+		
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "useless",
+         "patterns": ["You are useless", "I do not feel you are useful", "scrap", "get lost", "useless", "Irrelevent information", " I do not want to visit again"],
+         "responses": ["I am sorry to hear that", "I am getting better", "I would like to serve you better"]
+        },
+
+        {"tag": "Northern Lights",
+         "patterns": ["WHAT ARE THE NORTHERN LIGHTS?", "What do you know about northern lights?","Northern lights, what are they?","What is the Aurora?", "What is Aurora Borealis?" ],
+         "responses": ["The northern lights are an atmospheric phenomenon that's regarded as the Holy Grail of skywatching.", "The northern lights, or the aurora borealis, are the beautiful dancing waves of light that have captivated people for millennia. But for all its beauty, this spectacular light show is a rather violent event."]
+        },
+            
+        {"tag": "when",
+         "patterns": ["WHERE AND WHEN TO SEE THE NORTHERN LIGHTS", "Where can i see northeren lights?","Where can i spot northeren lights", "Where can i sport aurora effects?"],
+         "responses": ["The northern lights are happening 24 hours a day, seven days a week, 365 days a year, said photographer Chad Blakely, owner of northern lights tour company Lights Over Lapland. you need to be at the right place at the right time.", "The best place to see the northern lights is any destination in the -auroral zone the area within an approximately 1,550-mile (2,500 kilometers) radius of the North Pole. it's best to base yourself in a destination with solid infrastructure, like Fairbanks, Alaska; Yellowknife, Canada; Svalbard, Norway; Abisko National Park, in Sweden; Rovaniemi, Finland; and pretty much anywhere in Iceland."]
+        },
+		
+	      {"tag": "Timings",
+         "patterns": ["WHERE AND WHEN TO SEE THE NORTHERN LIGHTS", "When can i watch Northern lights?", "what time is the best to watch aurora?"],
+         "responses": ["The best time of year to see the northern lights is between September and April, when the sky gets dark enough to see the aurora. (Northern locales experience the midnight sun, or 24 hours of daylight in the summer.) The most action usually happens between 9 p.m. and 3 a.m., according to the Geophysical Institute of the University of Alaska Fairbanks. Keep the moon phases in mind, as a bright full moon might fill the night sky with light. Check local weather forecasts as well, because you won't be able to spot the aurora through the clouds.","You can monitor aurora forecasts from the University of Alaska Fairbanks' Geophysical Institute and NOAA, which offers both three-day and 30-minute forecasts."]
+	      },
+
+        {"tag": "Timings",
+         "patterns": ["WHERE AND WHEN TO SEE THE NORTHERN LIGHTS", "When can i watch Northern lights?", "what time is the best to watch aurora?"],
+         "responses": ["The best time of year to see the northern lights is between September and April, when the sky gets dark enough to see the aurora. (Northern locales experience the midnight sun, or 24 hours of daylight in the summer.) The most action usually happens between 9 p.m. and 3 a.m., according to the Geophysical Institute of the University of Alaska Fairbanks. Keep the moon phases in mind, as a bright full moon might fill the night sky with light. Check local weather forecasts as well, because you won't be able to spot the aurora through the clouds.","You can monitor aurora forecasts from the University of Alaska Fairbanks' Geophysical Institute and NOAA, which offers both three-day and 30-minute forecasts."]
+	      },
+
+        {"tag": "Colors",
+         "patterns": ["How does it look like?", "What colors it have?", "What are northern lights colors?"],
+         "responses": ["A colorful sky with colors red, green, blue, yellow and pink","Red: At its highest altitudes, Green: At lower altitudes, Blue: At yet lower altitudes, Yellow and pink are a mix of red and green or blue. Auroras changes with time."]
+	      },
+
+        {"tag": "Types",
+         "patterns": ["Are there any different types of auroras?", "How many auroras re present?", "what are different types of northern lights?"],
+         "responses": ["Picket-fence aurora,Dune aurora, Moon and Aurora"]
+	      },
+
+        {"tag": "Events",
+         "patterns": ["What are the past events?", "What are the past occurenecs examples of northern lights?", "What are historical significant events?"],
+         "responses": ["The auroras that resulted from the great geomagnetic storm on both 28 August and 2 September 1859", "The discovery of a 1770 Japanese diary in 2017 depicting auroras above the ancient Japanese capital of Kyoto suggested that the storm may have been 7% larger than the Carrington event, which affected telegraph networks."]
+	      },
+
+        {"tag": "Causes",
+         "patterns": ["What cause the Northern lights?", "How does northern lights form?", "WHAT CAUSES THE Aurora?"],
+         "responses": ["The Northern Lights are actually the result of collisions between gaseous particles in the Earth's atmosphere with charged particles released from the sun's atmosphere.", "Variations in colour are due to the type of gas particles that are colliding. The most common auroral color, a pale yellowish-green, is produced by oxygen molecules located about 60 miles above the earth. Rare, all-red auroras are produced by high-altitude oxygen, at heights of up to 200 miles. Nitrogen produces blue or purplish-red aurora."]
+	      },
+
+        {"tag": "places",
+         "patterns": ["What are bucket list places to watch northern lights?", "Places to watch aurora."],
+         "responses": ["The best places in the world are usually closer to the Arctic Circle, including Alaska, Canada, Iceland, Greenland, Norway, Sweden and Finland", "One can spot the southern lights in the southern hemisphere. Still, the northern lights are the star of the show.", "Arctic Bath Hotel and Spa, Sweden", "Northern Lights Cruise, Alaska", "Arctic Bath Hotel and Spa, Sweden", "North Pole Igloos Hotel", "Northern Lights and Arctic Cultures trip, Canadian Arctic", "Northern Lights and Arctic Cultures trip, Canadian Arctic", "Hidden Iceland", "Yellowknife, Canada", "Treehotel, Sweden"]
+	      },
+
+        {"tag": "Facts",
+         "patterns": ["What are fun facts about aurora?", "What are interesting facts about northern lights?"],
+         "responses": ["the term aurora borealis–northern dawn–is jointly credited to have first been used by Pierre Gassendi (1592-1655) and Galileo Galilei (1564-1642), who both witnessed a light display on Sept. 12, 1621.", "The height of the displays can occur up to 1000 km (620 miles), although most are between 80-120 km.", "Auroras tend to be more frequent and spectacular during high solar sunspot activity, which cycles over approximately eleven years.", "Yellowknife (Northwest Territories, Canada) is the capital for aurora tourism."]
+	      },
+        {
+          "tag":"websites",
+          "patterns":["Do you have any website too refer with?","Where can I find more information?","Can you give me strong source on auroras?","I wan to get more information about it"],
+          "responnses": ["https://www.northernlightscentre.ca/northernlights.html","https://www.space.com/15139-northern-lights-auroras-earth-facts-sdcmp.html"," https://en.wikipedia.org/wiki/Aurora","http://www.aurora-service.eu/aurora-school/aurora-borealis/" ]
+
+        }
+
+   ]
+}
